@@ -1,0 +1,133 @@
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 0px 0px 0px;
+}
+
+header {
+  background-color: rgb(149, 255, 179);
+  padding: 35px 0;
+}
+header h1 {
+  text-align: center;
+}
+
+main {
+  background-color: rgb(245, 245, 245);
+  padding: 25px 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+main h2 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+main form {
+  text-align: center;
+  padding: 0px 450px 0px 450px;
+}
+main form fieldset {
+  border: 1px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.368);
+          box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.368);
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+main form fieldset label {
+  padding-bottom: 2px;
+}
+main form fieldset legend {
+  padding-bottom: 2px;
+}
+main form fieldset .req {
+  color: red;
+}
+main form fieldset .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+}
+main form fieldset .born {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+}
+main form fieldset .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+}
+main form fieldset .url {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+}
+main form fieldset .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main form fieldset .question .lie:hover {
+  position: absolute;
+  left: 50px;
+  top: 160px;
+}
+main a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px 0;
+}
+
+footer {
+  background-color: rgb(255, 114, 119);
+  text-align: center;
+  padding: 20px 0;
+}

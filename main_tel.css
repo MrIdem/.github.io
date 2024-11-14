@@ -1,0 +1,75 @@
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 0px 0px 0px;
+}
+
+header {
+  background-color: rgb(149, 255, 179);
+  padding: 35px 0;
+}
+header h1 {
+  text-align: center;
+}
+header h1::after {
+  content: " !!!";
+}
+
+main {
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 400px;
+}
+main h2 {
+  margin-top: 0px;
+  padding-left: 80px;
+  padding-top: 50px;
+  font-size: 62px;
+}
+main .main {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .main .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 25px;
+  background-color: rgb(127, 163, 255);
+  width: 700px;
+  height: 400px;
+  margin-left: 230px;
+  -webkit-box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.368);
+          box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.368);
+}
+main .main .message p {
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main .main .message img {
+  width: 600px;
+  height: 300px;
+  margin-top: 25px;
+  -webkit-box-shadow: 5px 2.5px 5px rgba(0, 0, 0, 0.368);
+          box-shadow: 5px 2.5px 5px rgba(0, 0, 0, 0.368);
+}
+
+footer {
+  background-color: rgb(255, 114, 119);
+  text-align: center;
+  padding: 20px 0;
+}
+footer h2::before {
+  content: "!!!";
+}
+footer h2::after {
+  content: "!!!";
+}
